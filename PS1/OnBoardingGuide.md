@@ -1,5 +1,6 @@
 #	On Boarding Guide
 **Rıza Özçelik (Based on a previous version by Utkan Gezer)**
+
 **October 28, 2020**
 
 ### Introduction
@@ -8,7 +9,7 @@
 
 Though this is an online edition 😷, we aim to make this course as fun as it gets and make us all enjoy the semester. This course will help you learn essential computer engineering skills, including complexity analysis, algorithm design, and data structures, a skill set that you will utilize throughout your career. But, most importantly, you will have fun in this course! 🥳🥳 So, let us all get on board, shall we? 🚀
 
-We know that you love programming projects and we also know that they have a cool side-effect as being very useful for your learning. 👩‍💻👨‍💻 So, there will not be any shortage of them! We will have **five** programming projects that would require the knowledge of C++. No worries, though, we will spend a considerable amount of time on C++ as part of the course material. The projects also need you to be familiar with [Virtual Machines (VMs)](#Virtual Machines), [terminal](#terminal), and [git](git). This is why we prepared this document! 
+We know that you love programming projects and we also know that they have a cool side-effect as being very useful for your learning. 👩‍💻👨‍💻 So, there will not be any shortage of them! We will have **five** programming projects that would require the knowledge of C++. No worries, though, we will spend a considerable amount of time on C++ as part of the course material. The projects also need you to be familiar with [Virtual Machines (VMs)](#virtual-machines), [terminal](#terminal), and [git](#git). This is why we prepared this document! 
 
 ### Virtual Machines
 VMs are simply great! They are operating systems (OS) that can be run inside almost any operating system. 😲Thus, we prepared an OS for you, a Lubuntu environment, that you can run with a double-click from your desktop! All thanks to VMs...
