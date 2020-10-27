@@ -65,7 +65,7 @@ Enough of the definitions! Let us see some actual commands (and options)!​
 
 - **rm <file_name>:** **R**e**m**oves (or deletes) the given file. It can also remove folders when `-r` is used. Be careful when and where you run this command! It is frequently used to prank other programmers...😛😛 
 
-- **sudo <command>:** When any command is prefixed with sudo, **s**uper **u**ser (admin) privileges are activated to **do** anything. It requires you to enter the admin password. This command is the the reason behind our departmental sweat shirts! 
+- **sudo <command>:** When any command is prefixed with sudo, **s**uper **u**ser (admin) privileges are activated to **do** anything. It requires you to enter the admin password. This command is the reason behind our departmental sweat shirts! 
 
      ![](./img/sandwich.png)
 
@@ -76,7 +76,7 @@ Here are a couple of additional points for easy path management.
 
 Phew! 🤯🤯Lots of things we discussed, did not we? You learned **A LOT** in a very short time. You might also be well-confused, but that is not a problem at all! Go ahead, open a Terminal (use `Ctrl+Shift+T` or taskbar icon) in your VM and play with the commands! Feel like a ninja! 🐱‍👤
 
-**PS:** The material we covered here is only the tip of the iceberg and there is much more commands and options to learn. Remember, Google is your friend! Not that you need it or whatsoever, but [here is a cool tutorial](https://www.codecademy.com/learn/learn-the-command-line) on terminal commands. Hack it out!
+**PS:** The material we covered here is only the tip of the iceberg and there is much more commands and options to learn. You can edit files (`vi`, `nano`), install/remove programs (`apt-get`), connect to other computers (`ssh`), and so on. Remember, Google is your friend! Not that you need it or whatsoever, but [here is a cool tutorial](https://www.codecademy.com/learn/learn-the-command-line) on terminal commands. Hack it out!
 
 ### Git
 
