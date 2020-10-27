@@ -30,10 +30,11 @@ Now let us set up the VM.
 
 Here are a couple of additional notes for your convenience: 
 
-- The default keyboard layout is in English - United States, which arguably is a more programmer-friendly layout.  If you are having more fun with Turkish layout, though, you can change it via ```Ctrl+Shift``` or  the task bar. Remember our motto? We just wanna have fun!
-- If you are using VirtualBox, consider enabling the clipboard sharing. How else could you copy-paste code snippets back and forth, right?😉 To do so, run the VM and select  *Devices > Shared Clipboard > Bidirectional* from the top bar.
-- If your computer has a high DPI screen (like a MacBook), you might have a poor display. In this case, see *View* options, again from the top bar.
-- Depending on your hardware configurations, you may encounter frustrating freezes (which totally disrupts the fun 😤) when using the VM. If so, open VirtualBox and select the VM (do not open). Then click *Settings* and find *System* in the opened window. Increasing the memory allocated to the VM using the horizontal bar might resolve the freezes. However, keep in mind that allocating more memory to guest OS also means allocating less to host. Tune the balance! ⚖
+- The default **keyboard layout** is in English - United States, which arguably is a more programmer-friendly layout.  If you are having more fun with Turkish layout, though, you can change it via ```Ctrl+Shift``` or  the task bar. Remember our motto? We just wanna have fun!
+- If you are using VirtualBox, consider enabling the **clipboard sharing.** How else could you copy-paste code snippets back and forth, right?😉 To do so, run the VM and select  *Devices > Shared Clipboard > Bidirectional* from the top bar.
+- If your computer has a high DPI screen (like a MacBook), you might have a **poor display**. In this case, see *View* options, again from the top bar.
+- Depending on your hardware configurations, you may encounter **frustrating freezes** (which totally disrupts the fun 😤) when using the VM. If so, open VirtualBox and select the VM (do not open). Then click *Settings* and find *System* in the opened window. Increasing the memory allocated to the VM using the horizontal bar might resolve the freezes. However, keep in mind that allocating more memory to guest OS also means allocating less to host. Tune the balance! ⚖
+- Ignore all **update** warnings.
 
 ### Terminal
 
