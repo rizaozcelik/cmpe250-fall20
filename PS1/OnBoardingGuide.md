@@ -58,7 +58,7 @@ Enough of the definitions! Let us see some actual commands (and options)!​
 
 - **cat <file_name>:** Prints the provided content of the given file to the terminal
 
-- **less <file_name>: **Prints the initial content of the given file to the terminal in a scrollable format. Especially useful to skim large files. Hitting **q** quits scrolling.
+- **less <file_name>:** Prints the initial content of the given file to the terminal in a scrollable format. Especially useful to skim large files. Hitting **q** quits scrolling.
 
 - **mv <current_path> <new_path>:** **m**o**v**es the file (or folder) in the current path to its new path. It can also be used for renaming.
 
@@ -72,8 +72,8 @@ Enough of the definitions! Let us see some actual commands (and options)!​
 
 Here are a couple of additional points for easy path management.
 
-- **..** refers to the parent directory. For instance, if the current directory is `enjoy/cmpe250` `cd ..` changes the directory to `enjoy`
-- **.** refers to the current directory. For instance, `cp ../fun.txt` copies `fun.txt` in the parent directory to the current one.
+- `..` refers to the parent directory. For instance, if the current directory is `enjoy/cmpe250` `cd ..` changes the directory to `enjoy`
+- `.` refers to the current directory. For instance, `cp ../fun.txt` copies `fun.txt` in the parent directory to the current one.
 
 Phew! 🤯🤯Lots of things we discussed, did not we? You learned **A LOT** in a very short time. You might also be well-confused, but that is not a problem at all! Go ahead, open a Terminal (use `Ctrl+Shift+T` or taskbar icon) in your VM and play with the commands! Feel like a ninja! 🐱‍👤
 
