@@ -30,10 +30,11 @@ Now let us set up the VM.
 
 Here are a couple of additional notes for your convenience: 
 
-- The default keyboard layout is in English - United States, which arguably is a more programmer-friendly layout.  If you are having more fun with Turkish layout, though, you can change it via ```Ctrl+Shift``` or  the task bar. Remember our motto? We just wanna have fun!
-- If you are using VirtualBox, consider enabling the clipboard sharing. How else could you copy-paste code snippets back and forth, right?😉 To do so, run the VM and select  *Devices > Shared Clipboard > Bidirectional* from the top bar.
-- If your computer has a high DPI screen (like a MacBook), you might have a poor display. In this case, see *View* options, again from the top bar.
-- Depending on your hardware configurations, you may encounter frustrating freezes (which totally disrupts the fun 😤) when using the VM. If so, open VirtualBox and select the VM (do not open). Then click *Settings* and find *System* in the opened window. Increasing the memory allocated to the VM using the horizontal bar might resolve the freezes. However, keep in mind that allocating more memory to guest OS also means allocating less to host. Tune the balance! ⚖
+- The default **keyboard layout** is in English - United States, which arguably is a more programmer-friendly layout.  If you are having more fun with Turkish layout, though, you can change it via ```Ctrl+Shift``` or  the task bar. Remember our motto? We just wanna have fun!
+- If you are using VirtualBox, consider enabling the **clipboard sharing.** How else could you copy-paste code snippets back and forth, right?😉 To do so, run the VM and select  *Devices > Shared Clipboard > Bidirectional* from the top bar.
+- If your computer has a high DPI screen (like a MacBook), you might have a **poor display**. In this case, see *View* options, again from the top bar.
+- Depending on your hardware configurations, you may encounter **frustrating freezes** (which totally disrupts the fun 😤) when using the VM. If so, open VirtualBox and select the VM (do not open). Then click *Settings* and find *System* in the opened window. Increasing the memory allocated to the VM using the horizontal bar might resolve the freezes. However, keep in mind that allocating more memory to guest OS also means allocating less to host. Tune the balance! ⚖
+- Ignore all **update** warnings.
 
 ### Terminal
 
@@ -57,7 +58,7 @@ Enough of the definitions! Let us see some actual commands (and options)!​
 
 - **cat <file_name>:** Prints the provided content of the given file to the terminal
 
-- **less <file_name>: **Prints the initial content of the given file to the terminal in a scrollable format. Especially useful to skim large files. Hitting **q** quits scrolling.
+- **less <file_name>:** Prints the initial content of the given file to the terminal in a scrollable format. Especially useful to skim large files. Hitting **q** quits scrolling.
 
 - **mv <current_path> <new_path>:** **m**o**v**es the file (or folder) in the current path to its new path. It can also be used for renaming.
 
@@ -71,8 +72,8 @@ Enough of the definitions! Let us see some actual commands (and options)!​
 
 Here are a couple of additional points for easy path management.
 
-- **..** refers to the parent directory. For instance, if the current directory is `enjoy/cmpe250` `cd ..` changes the directory to `enjoy`
-- **.** refers to the current directory. For instance, `cp ../fun.txt` copies `fun.txt` in the parent directory to the current one.
+- `..` refers to the parent directory. For instance, if the current directory is `enjoy/cmpe250` `cd ..` changes the directory to `enjoy`
+- `.` refers to the current directory. For instance, `cp ../fun.txt .` copies `fun.txt` in the parent directory to the current one.
 
 Phew! 🤯🤯Lots of things we discussed, did not we? You learned **A LOT** in a very short time. You might also be well-confused, but that is not a problem at all! Go ahead, open a Terminal (use `Ctrl+Shift+T` or taskbar icon) in your VM and play with the commands! Feel like a ninja! 🐱‍👤
 
@@ -99,8 +100,8 @@ Okay! Now let us see how we can use git. You probably already guessed that it wo
 - **git config --global user.email "your@email.com"**: Introduces you to git by configuring your email address. This will be used for authentication on private repos. 🤝
 - **git config -- global user.name "Your Name"**: Similar to the previous one, introduces your name. 🤝
 - **git clone <https://url/to/repository.git>:** Creates a local copy of a remote repository in the specified url. You usually do this only once per project.
-- **git add <filename>:** Makes git track the changes in the specified file. Often, you track all the coding files, but if you will not need the previous versions of a file, you can leave it out of the version control. This is especially useful if you push and pull a repo that contains authentication files, sensitive information, very large data sets etc. 
-- **git commit -m "<Commit Message>":** Creates a snapshot/version that you may go back in the future. Including a commit message, which ideally explains the changes made since the previous commit, is mandatory. The message associates checkpoints with explanations. 
+- **git add < filename >:** Makes git track the changes in the specified file. Often, you track all the coding files, but if you will not need the previous versions of a file, you can leave it out of the version control. This is especially useful if you push and pull a repo that contains authentication files, sensitive information, very large data sets etc. 
+- **git commit -m "Commit Message":** Creates a snapshot/version that you may go back in the future. Including a commit message, which ideally explains the changes made since the previous commit, is mandatory. The message associates checkpoints with explanations. 
 - **git push:** Upload local to remote.
 - **git pull:** Download remote to local.
 - **git status:** Display information about the current status regarding (un)tracked files, changes since last commit and so on.
