@@ -1,40 +1,53 @@
 #include <iostream>
 #include "ArrayList.h"
 
-using namespace std;
+int ArrayList::nCreatedInstance = 0;
 
-ArrayList::ArrayList(int adjustSize) {
+ArrayList::ArrayList(int _adjustSize) {
 	this->len = 0;
-	this->adjustSize = adjustSize;
-	this->data = new int[adjustSize];
+	this->adjustSize = _adjustSize;
+	this->data = new int[_adjustSize];
+
+	ArrayList::nCreatedInstance++;
+	this->id = ArrayList::nCreatedInstance;	
 }
 
 ArrayList::ArrayList(const ArrayList& listToCopy) {
 	cout << "Copy constructor is called." << endl;
 	this->len = listToCopy.len;
 	this->adjustSize = listToCopy.adjustSize;
-	int new_size = this->len + (adjustSize - (len % adjustSize)); // Round len up to the next multiple of adjustSize.
-	this->data = new int[new_size];
+	int newSize = this->len + (adjustSize - (len % adjustSize)); // Round len up to the next multiple of adjustSize.
+	
+	this->data = new int[newSize];
 	for (int i = 0; i < this->len; ++i){
 		data[i] = listToCopy.data[i];
 	}
+
+	ArrayList::nCreatedInstance++;
+	this->id = ArrayList::nCreatedInstance;	
+	cout << "Copied instance: " << listToCopy.id << " to new object with id: " << this->id << endl;  
 }
 
-ArrayList ArrayList::operator=(const ArrayList& listToAssign) {
+ArrayList& ArrayList::operator=(const ArrayList& listToAssign) {
 	cout << "Assignment operator is called." << endl;
 	if (this == &listToAssign) {
 		return *this;
 	}
-	if (this->data != NULL) { // If this object was used before, free the memory it has used.
+	// If this object was used before, free the memory it has used. Test the effectiveness by assigning objects to one another so many times!
+	// For testing, comment out this if block and run tester code in testList.cpp
+	if (this->data != NULL) { 
+		cout << "Deleting previously used data array (Assignment operator)" << endl;
 		delete[] this->data;		
 	}
 	this->len = listToAssign.len;
 	this->adjustSize = listToAssign.adjustSize;
-	int new_size = this->len + (adjustSize - (len % adjustSize)); // Round len up to the next multiple of adjustSize.
-	this->data = new int[new_size];
-	for (int i = 0; i < this->len; ++i){
+	int newSize = this->len + (adjustSize - (len % adjustSize)); // Round len up to the next multiple of adjustSize.
+	this->data = new int[newSize];
+	for (int i = 0; i < this->len; i++){
 		data[i] = listToAssign.data[i];
 	}
+
+	cout << "Assigned instance: " << listToAssign.id << " to new object with id: " << this->id  << endl;  	
 	return *this;
 }
 
@@ -42,14 +55,17 @@ void ArrayList::insert(int val, int idx) {
 	if (idx < 0 || idx > this->len) {
 		return;
 	}
-	if (this->len % adjustSize == 0) {
-		 // We need to copy the material to a new array
-		cout << "I am full! Gimme some space, bruh!" << endl;
+	if (this->len % adjustSize == 0 && this->len !=0) {
+		// We need to copy the material to a new array
+		// cout << "I am full! Gimme some space, bruh!" << endl;
 		int* new_data = new int[this->len + this->adjustSize];
 		for (int i = 0; i < this->len; i++) {
 			new_data[i] = this->data[i];
 		}
-		delete[] this->data; // Does the magic!
+
+		// Does the magic! Without this line, heap keeps growing and growing... Then comes the program is killed!
+		// If you do not believe me, comment out this line and run insert 100K times!
+		delete[] this->data; 			
 		this->data = new_data;
 	}
 		
@@ -79,9 +95,11 @@ void ArrayList::print() {
 }
 
 ArrayList::~ArrayList() {
-	cout << "Destructing...";
-	print();
-	delete[] this->data;
+	cout << "Destructing instance with id: " << this->id << endl;
+	// print();
+	if (this->data != NULL) {
+		delete[] this->data;
+	}
 	cout << "Destructed the object with data address: " << data << endl;
 }
 

@@ -1,50 +1,59 @@
 #include <iostream>
 #include "ArrayList.h"
 
-using namespace std;
+void testHeapManagementAssignment() {
+	ArrayList lst1 = ArrayList(10);
+	for (int i = 0; i < 100000; i++) {
+		lst1.insert(rand() % 10);
+	}
 
-int main(int argc, char const *argv[])
-{
-	ArrayList lst = ArrayList(10);
-	// ArrayList lst = ArrayList(); // Equivalent lines.
+	ArrayList lst4;
+	for (int i = 0; i <= 10000; i++) {
+		lst4 = lst1;
+	}
 
-	int n = 10;
-	for (int i = 0; i < n; i++) {
+}
+
+void testHeapManagementInsert() {
+	ArrayList lst1 = ArrayList(10);
+	for (int i = 0; i < 100000; i++) {
+		lst1.insert(rand() % 10);
+	}
+}
+
+int main(int argc, char const *argv[]) {
+
+	ArrayList lst1 = ArrayList(10);
+
+	for (int i = 0; i < 5; i++) {
 		int rnd = rand() % 10;
-		lst.insert(rnd);
+		lst1.insert(rnd);
 		cout << rnd << ' ';
 	}
-	cout << endl;
-	lst.print();
 
-	// If the .cpp file is not implemented properly, these lines cause error due to shared heap memory. 
-	cout << "Inserted first elements\n";
-	ArrayList lst2 = ArrayList(lst); // Copy constructor is called
-	// ArrayList lst2 = lst // Copy constructor is called.
-	ArrayList lst3;
-	lst3 = lst; // Assignment operator is called
+	cout << "Inserted first elements\nLst1: ";
+	lst1.print();
 
-	cout << "Lst:";
-	lst.print();
-
-	cout << "Lst2:";
+	cout << "Now Creating lst2 from lst1 by ArrayList(lst1)" << endl;
+	// Run the below block with and without a copy constructor and observe the difference!
+	ArrayList lst2 = ArrayList(lst1);
+	lst2.insert(123); 
 	lst2.print();
+	lst1.print();
 
-	cout << "Lst3:";
+	cout << "Now Creating lst2 from lst1 by = lst1" << endl;
+	ArrayList lst3 = lst1;
+	lst3.insert(123); 
 	lst3.print();
+	lst1.print();
 
-	// To show that each one of them is run independently.
-	lst.insert(1);
-	cout << "Lst:";
-	lst.print();
-	
-	lst2.insert(2);
-	cout << "Lst2:";
-	lst2.print();
- 
-	lst3.insert(3);
-	cout << "Lst3:";
-	lst3.print();
+	// Run the below block with and without an assignment operator and observe the difference!
+	cout << "Now Creating lst4 from lst1 in two lines" << endl;
+	ArrayList lst4;
+	lst4 = lst1;
+	lst4.insert(123); 
+	lst4.print();
+	lst1.print();
 
 	return 0;
 }
