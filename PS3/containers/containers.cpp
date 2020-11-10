@@ -1,8 +1,6 @@
 #include <iostream>
 #include <vector>
-#include <list>
 #include <deque>
-#include <stack>
 #include <list>
 
 using namespace std;
