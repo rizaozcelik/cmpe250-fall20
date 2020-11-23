@@ -77,7 +77,7 @@ Here are a couple of additional points for easy path management.
 
 Phew! 🤯🤯Lots of things we discussed, did not we? You learned **A LOT** in a very short time. You might also be well-confused, but that is not a problem at all! Go ahead, open a Terminal (use `Ctrl+Shift+T` or taskbar icon) in your VM and play with the commands! Feel like a ninja! 🐱‍👤
 
-**PS:** The material we covered here is only the tip of the iceberg and there is much more commands and options to learn. You can edit files (`vi`, `nano`), install/remove programs (`apt-get`), connect to other computers (`ssh`), and so on. Remember, Google is your friend! Not that you need it or whatsoever, but [here is a cool tutorial](https://ryanstutorials.net/linuxtutorial/filters.php) on terminal commands. Hack it out!
+**PS:** The material we covered here is only the tip of the iceberg and there is much more commands and options to learn. You can edit files (`vi`, `nano`), install/remove programs (`apt-get`), connect to other computers (`ssh`), and so on. Remember, Google is your friend! Not that you need it or whatsoever, but [here is a cool tutorial](https://ryanstutorials.net/linuxtutorial/) on terminal commands. Hack it out!
 
 ### Git
 
