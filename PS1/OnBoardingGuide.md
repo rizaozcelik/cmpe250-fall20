@@ -77,7 +77,7 @@ Here are a couple of additional points for easy path management.
 
 Phew! 🤯🤯Lots of things we discussed, did not we? You learned **A LOT** in a very short time. You might also be well-confused, but that is not a problem at all! Go ahead, open a Terminal (use `Ctrl+Shift+T` or taskbar icon) in your VM and play with the commands! Feel like a ninja! 🐱‍👤
 
-**PS:** The material we covered here is only the tip of the iceberg and there is much more commands and options to learn. You can edit files (`vi`, `nano`), install/remove programs (`apt-get`), connect to other computers (`ssh`), and so on. Remember, Google is your friend! Not that you need it or whatsoever, but [here is a cool tutorial](https://www.codecademy.com/learn/learn-the-command-line) on terminal commands. Hack it out!
+**PS:** The material we covered here is only the tip of the iceberg and there is much more commands and options to learn. You can edit files (`vi`, `nano`), install/remove programs (`apt-get`), connect to other computers (`ssh`), and so on. Remember, Google is your friend! Not that you need it or whatsoever, but [here is a cool tutorial](https://ryanstutorials.net/linuxtutorial/) on terminal commands. Hack it out!
 
 ### Git
 
@@ -106,7 +106,7 @@ Okay! Now let us see how we can use git. You probably already guessed that it wo
 - **git pull:** Download remote to local.
 - **git status:** Display information about the current status regarding (un)tracked files, changes since last commit and so on.
 
-The ability to use Git is essential for this course and your future career. Yet, we are well aware that this was too much content to digest in too few minutes. This it not a problem at all, since git is not a tool you should know by heart. Usually, you just get the basics and ask your best friend, Google, for more advanced needs. So, go ahead, create a GitHub account and your first repo and play with it! In case you would like some practicing, [here is a link](https://www.codecademy.com/learn/learn-git)!
+The ability to use Git is essential for this course and your future career. Yet, we are well aware that this was too much content to digest in too few minutes. This it not a problem at all, since git is not a tool you should know by heart. Usually, you just get the basics and ask your best friend, Google, for more advanced needs. So, go ahead, create a GitHub account and your first repo and play with it! In case you would like some further reading, [here is a link](https://www.atlassian.com/git/tutorials/setting-up-a-repository)!
 
 <img src="./img/vcs.jpg" style="zoom:33%;" />
 
