@@ -1,4 +1,4 @@
-// Ounk to question: https://www.hackerrank.com/challenges/pairs/problem
+// Link to question: https://www.hackerrank.com/challenges/pairs/problem
 int pairsBruteForce(int k, vector<int> arr) {
     int counter = 0;
     for (int  i = 0; i < arr.size(); i++) {
