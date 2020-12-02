@@ -109,6 +109,7 @@ template <class T> bool Heap<T>::push(const T item) {
 	this->nItems++;
 	this->items[this->nItems] = item;
 	this->percolateUp(this->nItems);
+	return true;
 }
 
 template <class T> void Heap<T>::percolateUp(int bubbleIdx) {
