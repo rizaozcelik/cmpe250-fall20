@@ -1,0 +1,21 @@
+10
+Pat Hobbit 8 10 30
+Eric Men 11 5 63
+Sammie Elves 9 6 94
+Allen Dwarfs 8 4 97
+Gabriel Wizards 9 5 88
+Guadalupe Hobbit 9 10 29
+Dale Men 12 5 79
+Lavern Elves 9 4 80
+Joe Dwarfs 10 6 60
+Victor Wizards 9 5 70
+Allen Joe NO-SPECIAL
+Lavern Gabriel NO-SPECIAL
+Eric Lavern NO-SPECIAL
+Guadalupe Allen NO-SPECIAL
+Sammie Guadalupe NO-SPECIAL
+Victor Pat NO-SPECIAL
+Eric Joe SPECIAL
+Joe Sammie NO-SPECIAL
+Sammie Dale NO-SPECIAL
+Joe Pat NO-SPECIAL

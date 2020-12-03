@@ -1,0 +1,91 @@
+80
+Freddie Hobbit 10 10 21
+Vivian Men 11 6 62
+Gabriel Elves 10 4 71
+Chris Dwarfs 9 6 59
+Lesley Wizards 10 5 56
+Sidney Hobbit 9 10 26
+Avis Men 12 4 81
+Louise Elves 9 6 60
+Avery Dwarfs 10 4 85
+Dan Wizards 9 4 77
+Chris Sidney NO-SPECIAL
+Avis Vivian NO-SPECIAL
+Freddie Avis NO-SPECIAL
+Sidney Freddie NO-SPECIAL
+Vivian Sidney NO-SPECIAL
+Avery Freddie NO-SPECIAL
+Vivian Louise SPECIAL
+Avery Gabriel NO-SPECIAL
+Gabriel Avery NO-SPECIAL
+Sidney Vivian NO-SPECIAL
+Freddie Dan NO-SPECIAL
+Avery Gabriel NO-SPECIAL
+Freddie Sidney NO-SPECIAL
+Avis Freddie SPECIAL
+Gabriel Dan SPECIAL
+Sidney Lesley NO-SPECIAL
+Chris Avis NO-SPECIAL
+Avis Freddie NO-SPECIAL
+Chris Louise NO-SPECIAL
+Louise Freddie NO-SPECIAL
+Freddie Louise SPECIAL
+Louise Chris NO-SPECIAL
+Vivian Dan NO-SPECIAL
+Avery Vivian NO-SPECIAL
+Chris Avery NO-SPECIAL
+Avery Lesley NO-SPECIAL
+Gabriel Sidney NO-SPECIAL
+Avis Vivian NO-SPECIAL
+Gabriel Avery NO-SPECIAL
+Louise Freddie NO-SPECIAL
+Vivian Avis NO-SPECIAL
+Avery Gabriel NO-SPECIAL
+Freddie Avis SPECIAL
+Sidney Gabriel NO-SPECIAL
+Chris Louise NO-SPECIAL
+Avis Lesley NO-SPECIAL
+Gabriel Avis NO-SPECIAL
+Louise Lesley NO-SPECIAL
+Lesley Dan NO-SPECIAL
+Louise Lesley NO-SPECIAL
+Chris Dan NO-SPECIAL
+Louise Vivian NO-SPECIAL
+Gabriel Avis NO-SPECIAL
+Sidney Chris NO-SPECIAL
+Lesley Avis NO-SPECIAL
+Avis Vivian SPECIAL
+Lesley Avery NO-SPECIAL
+Avery Lesley NO-SPECIAL
+Gabriel Louise NO-SPECIAL
+Avery Chris NO-SPECIAL
+Vivian Dan NO-SPECIAL
+Louise Freddie NO-SPECIAL
+Vivian Sidney NO-SPECIAL
+Dan Gabriel NO-SPECIAL
+Freddie Sidney NO-SPECIAL
+Louise Freddie NO-SPECIAL
+Chris Avery NO-SPECIAL
+Dan Gabriel NO-SPECIAL
+Freddie Avery NO-SPECIAL
+Louise Gabriel NO-SPECIAL
+Vivian Avery NO-SPECIAL
+Avis Vivian NO-SPECIAL
+Gabriel Louise SPECIAL
+Dan Freddie NO-SPECIAL
+Chris Avery NO-SPECIAL
+Avery Lesley NO-SPECIAL
+Gabriel Dan NO-SPECIAL
+Sidney Freddie NO-SPECIAL
+Gabriel Avis SPECIAL
+Avery Chris NO-SPECIAL
+Chris Sidney NO-SPECIAL
+Dan Chris NO-SPECIAL
+Freddie Louise NO-SPECIAL
+Avis Freddie NO-SPECIAL
+Chris Louise NO-SPECIAL
+Avery Vivian NO-SPECIAL
+Chris Avis SPECIAL
+Avis Lesley NO-SPECIAL
+Gabriel Louise NO-SPECIAL
+Dan Vivian NO-SPECIAL

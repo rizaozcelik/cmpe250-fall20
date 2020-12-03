@@ -1,0 +1,91 @@
+80
+Frances Hobbit 8 10 20
+Christine Men 12 5 70
+Jamie Elves 10 5 63
+Lou Dwarfs 9 6 77
+Robert Wizards 10 4 65
+Theodore Hobbit 9 10 24
+Pat Men 12 4 98
+Camille Elves 10 6 91
+Inez Dwarfs 10 5 81
+Max Wizards 8 5 68
+Frances Theodore NO-SPECIAL
+Camille Lou NO-SPECIAL
+Christine Camille NO-SPECIAL
+Camille Lou NO-SPECIAL
+Frances Pat NO-SPECIAL
+Pat Jamie NO-SPECIAL
+Christine Camille SPECIAL
+Max Christine NO-SPECIAL
+Lou Pat NO-SPECIAL
+Pat Frances NO-SPECIAL
+Frances Max NO-SPECIAL
+Camille Lou NO-SPECIAL
+Jamie Camille NO-SPECIAL
+Theodore Christine NO-SPECIAL
+Christine Max NO-SPECIAL
+Theodore Christine NO-SPECIAL
+Lou Camille NO-SPECIAL
+Camille Lou NO-SPECIAL
+Christine Pat NO-SPECIAL
+Max Robert NO-SPECIAL
+Lou Camille NO-SPECIAL
+Camille Jamie NO-SPECIAL
+Lou Theodore NO-SPECIAL
+Camille Robert NO-SPECIAL
+Frances Inez NO-SPECIAL
+Max Christine NO-SPECIAL
+Christine Inez SPECIAL
+Inez Christine SPECIAL
+Christine Pat NO-SPECIAL
+Camille Lou NO-SPECIAL
+Lou Max NO-SPECIAL
+Theodore Robert NO-SPECIAL
+Robert Theodore NO-SPECIAL
+Theodore Frances NO-SPECIAL
+Jamie Inez SPECIAL
+Camille Frances NO-SPECIAL
+Robert Inez NO-SPECIAL
+Max Lou NO-SPECIAL
+Lou Inez NO-SPECIAL
+Theodore Christine NO-SPECIAL
+Christine Theodore NO-SPECIAL
+Theodore Christine SPECIAL
+Frances Camille NO-SPECIAL
+Camille Frances NO-SPECIAL
+Lou Theodore NO-SPECIAL
+Inez Lou NO-SPECIAL
+Frances Theodore NO-SPECIAL
+Pat Jamie NO-SPECIAL
+Robert Camille SPECIAL
+Max Lou NO-SPECIAL
+Lou Inez NO-SPECIAL
+Camille Robert NO-SPECIAL
+Christine Pat SPECIAL
+Inez Lou NO-SPECIAL
+Lou Max NO-SPECIAL
+Theodore Jamie NO-SPECIAL
+Christine Inez NO-SPECIAL
+Pat Lou NO-SPECIAL
+Frances Max NO-SPECIAL
+Camille Robert NO-SPECIAL
+Christine Theodore NO-SPECIAL
+Inez Christine NO-SPECIAL
+Robert Camille NO-SPECIAL
+Camille Frances NO-SPECIAL
+Lou Inez NO-SPECIAL
+Max Jamie NO-SPECIAL
+Frances Theodore NO-SPECIAL
+Max Lou NO-SPECIAL
+Lou Inez NO-SPECIAL
+Camille Jamie NO-SPECIAL
+Lou Theodore NO-SPECIAL
+Max Lou NO-SPECIAL
+Lou Camille NO-SPECIAL
+Camille Frances SPECIAL
+Frances Theodore NO-SPECIAL
+Camille Christine NO-SPECIAL
+Jamie Camille NO-SPECIAL
+Inez Robert NO-SPECIAL
+Jamie Pat NO-SPECIAL
+Camille Frances NO-SPECIAL

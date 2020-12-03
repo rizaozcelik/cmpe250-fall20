@@ -1,0 +1,91 @@
+80
+Ronnie Hobbit 10 10 20
+Russell Men 11 4 68
+Ray Elves 8 5 99
+Arden Dwarfs 8 5 57
+Wesley Wizards 8 4 55
+Lovie Hobbit 9 10 26
+Alvin Men 12 6 57
+Lindsay Elves 10 5 75
+Benjamin Dwarfs 8 5 91
+Cynthia Wizards 9 6 78
+Arden Benjamin NO-SPECIAL
+Lovie Arden NO-SPECIAL
+Russell Cynthia NO-SPECIAL
+Alvin Russell NO-SPECIAL
+Russell Alvin SPECIAL
+Lovie Arden NO-SPECIAL
+Ronnie Cynthia NO-SPECIAL
+Lindsay Ray NO-SPECIAL
+Russell Lovie NO-SPECIAL
+Cynthia Ray NO-SPECIAL
+Russell Benjamin NO-SPECIAL
+Cynthia Arden NO-SPECIAL
+Arden Alvin NO-SPECIAL
+Alvin Ray NO-SPECIAL
+Arden Benjamin NO-SPECIAL
+Lovie Ray NO-SPECIAL
+Wesley Alvin NO-SPECIAL
+Benjamin Ray NO-SPECIAL
+Ray Cynthia NO-SPECIAL
+Lindsay Ronnie NO-SPECIAL
+Arden Cynthia NO-SPECIAL
+Benjamin Ray NO-SPECIAL
+Arden Lindsay NO-SPECIAL
+Lindsay Ronnie NO-SPECIAL
+Arden Benjamin SPECIAL
+Lindsay Ray NO-SPECIAL
+Wesley Lovie NO-SPECIAL
+Alvin Arden NO-SPECIAL
+Russell Lindsay NO-SPECIAL
+Lovie Arden NO-SPECIAL
+Arden Benjamin NO-SPECIAL
+Alvin Ray NO-SPECIAL
+Ronnie Cynthia NO-SPECIAL
+Alvin Ray NO-SPECIAL
+Ray Lindsay NO-SPECIAL
+Lindsay Arden NO-SPECIAL
+Russell Lindsay NO-SPECIAL
+Alvin Ray NO-SPECIAL
+Arden Lovie NO-SPECIAL
+Lovie Ronnie NO-SPECIAL
+Wesley Alvin NO-SPECIAL
+Lovie Russell SPECIAL
+Russell Lovie NO-SPECIAL
+Benjamin Arden NO-SPECIAL
+Arden Lovie NO-SPECIAL
+Lovie Ronnie NO-SPECIAL
+Russell Cynthia NO-SPECIAL
+Lindsay Ray NO-SPECIAL
+Ray Lovie NO-SPECIAL
+Benjamin Ronnie NO-SPECIAL
+Ray Lovie NO-SPECIAL
+Lovie Arden NO-SPECIAL
+Ronnie Cynthia NO-SPECIAL
+Lindsay Russell NO-SPECIAL
+Ronnie Lovie NO-SPECIAL
+Benjamin Ray NO-SPECIAL
+Arden Benjamin NO-SPECIAL
+Cynthia Arden NO-SPECIAL
+Arden Benjamin NO-SPECIAL
+Lindsay Ray NO-SPECIAL
+Ray Benjamin NO-SPECIAL
+Cynthia Arden NO-SPECIAL
+Ronnie Benjamin SPECIAL
+Alvin Ronnie NO-SPECIAL
+Arden Lindsay NO-SPECIAL
+Lovie Russell NO-SPECIAL
+Arden Lovie NO-SPECIAL
+Alvin Arden NO-SPECIAL
+Ray Lindsay SPECIAL
+Cynthia Arden NO-SPECIAL
+Russell Benjamin NO-SPECIAL
+Cynthia Ronnie NO-SPECIAL
+Arden Lovie NO-SPECIAL
+Benjamin Ray NO-SPECIAL
+Russell Lovie NO-SPECIAL
+Cynthia Ray NO-SPECIAL
+Ronnie Lindsay NO-SPECIAL
+Lovie Arden NO-SPECIAL
+Arden Alvin NO-SPECIAL
+Lovie Wesley NO-SPECIAL

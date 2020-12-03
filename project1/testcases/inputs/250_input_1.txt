@@ -1,0 +1,21 @@
+10
+Ora Hobbit 10 10 29
+Daryl Men 11 6 52
+August Elves 9 5 78
+Kenneth Dwarfs 8 6 84
+Micheal Wizards 8 5 56
+Gerald Hobbit 10 10 22
+Elmer Men 11 4 89
+Daisy Elves 9 4 82
+Ralph Dwarfs 10 5 67
+Theodore Wizards 10 5 97
+Micheal Theodore NO-SPECIAL
+Ralph Ora NO-SPECIAL
+August Theodore NO-SPECIAL
+Daisy Ora NO-SPECIAL
+Micheal Ralph NO-SPECIAL
+Daisy Daryl NO-SPECIAL
+Micheal Theodore NO-SPECIAL
+Theodore Kenneth NO-SPECIAL
+Daryl Gerald NO-SPECIAL
+Gerald Micheal NO-SPECIAL
