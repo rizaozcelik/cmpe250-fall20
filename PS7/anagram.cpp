@@ -1,4 +1,4 @@
-// Link to question: https://www.hackerrank.com/challenges/ctci-making-anagrams/copy-from/30011510
+// Link to question: https://www.hackerrank.com/challenges/ctci-making-anagrams/
 int number_needed(string a, string b) {
     vector<int> chars1(26);
     vector<int> chars2(26);

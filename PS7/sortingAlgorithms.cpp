@@ -117,10 +117,9 @@ int main(int argc, char const *argv[]) {
 		int rnd = rand() % max;
 		elements.push_back(rnd);
 	}
-	cout << endl;
 
-	quickSort(elements, 0, elements.size() - 1);
-	// insertionSort(elements, 0, elements.size() - 1);
+	insertionSort(elements, 0, elements.size() - 1);
+	// quickSort(elements, 0, elements.size() - 1);
 	// countingSort(elements, max);
 	// bucketSort(elements, max);
 
