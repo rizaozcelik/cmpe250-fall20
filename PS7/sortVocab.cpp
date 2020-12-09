@@ -38,14 +38,11 @@ void addRandomWords(vector<string>& vocab, int maxWordLen=23, int nRandomWords=1
 }
 
 
-template <typename T> void insertionSort(vector<T>& elements, int startIndex=0, int lastIndex=-1) {
-	if (lastIndex < startIndex) {
+template <typename T> void insertionSort(vector<T>& elements, int startIndex, int lastIndex) {
+	if (lastIndex < startIndex || startIndex < 0 || lastIndex < 0) {
 		return;
 	}
-	if (lastIndex == -1) {
-		lastIndex = elements.size() - 1;
-	}
-
+	
 	for (int i = startIndex + 1; i <= lastIndex; i++) {
 		T elemToInsert = elements[i];
 		int insertionIndex = i;

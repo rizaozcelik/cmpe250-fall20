@@ -21,14 +21,10 @@ template <typename Container> void printContainer(Container container) {
 	cout << endl;
 }
 
-template <typename T> void insertionSort(vector<T>& elements, int startIndex=0, int lastIndex=-1) {
+template <typename T> void insertionSort(vector<T>& elements, int startIndex, int lastIndex) {
 	// Some sanity checks...
 	if (lastIndex < startIndex || startIndex < 0 || lastIndex < 0) {
 		return;
-	}
-
-	if (lastIndex == -1) {
-		lastIndex = elements.size() - 1;
 	}
 
 	// Shift all elements to the right until you find the insertion index 
