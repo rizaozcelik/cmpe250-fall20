@@ -28,10 +28,10 @@ void Graph::dfs(int s) {
     for(int i = 0; i < numberOfVertices; i++)
         visited[i] = false;
 
-    // Create a queue for BFS
+    // Create a stack for DFS
     stack<int> q;
 
-    // Mark the current node as visited and enqueue it
+    // Mark the current node as visited and push it
     visited[s] = true;
     q.push(s);
 
@@ -42,15 +42,15 @@ void Graph::dfs(int s) {
 
     while(!q.empty()) {
 
-        // Dequeue a vertex from queue and print it
+        // Get top vertex from stack and print it
         s = q.top();
 
         cout << s << " ";
         q.pop();
 
-        // Get all adjacent vertices of the dequeued
+        // Get all adjacent vertices of the popped
         // vertex s. If an adjacent has not been visited,
-        // then mark it visited and enqueue it
+        // then mark it visited and push it
         for (i = adjacencyList[s].begin(); i != adjacencyList[s].end(); ++i) {
             if (!visited[*i]) {
                 visited[*i] = true;
